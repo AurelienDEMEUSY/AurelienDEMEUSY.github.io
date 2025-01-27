@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>test site</title>
     <style>
         body {
             display: flex;
@@ -18,6 +18,69 @@
     </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>test site!</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Conseil Triper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo Junior Conseil Triper">
+                <h1>Junior Conseil Triper</h1>
+            </div>
+            <nav class="nav">
+                <a href="#hebergements">Hébergements</a>
+                <a href="#activities">Activités</a>
+                <a href="#inscription">S'inscrire</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section principale -->
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Marseille, France">
+                <button>Rechercher</button>
+            </div>
+            <div class="filters">
+                <button>Économique</button>
+                <button>Familial</button>
+                <button>Romantique</button>
+                <button>Animaux autorisés</button>
+            </div>
+            <p class="result-count">Plus de 500 logements sont disponibles dans cette ville</p>
+        </section>
+
+        <!-- Hébergements -->
+        <section id="hebergements" class="hebergements">
+            <h3>Hébergements à Marseille</h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="hebergement1.jpg" alt="Auberge la Canebière">
+                    <p>Auberge la Canebière</p>
+                    <p>Nuit à partir de 25€</p>
+                    <p>★★★★☆</p>
+                </div>
+                <div class="card">
+                    <img src="hebergement2.jpg" alt="Hôtel de la Plage">
+                    <p>Hôtel de la Plage</p>
+                    <p>Nuit à partir de 75€</p>
+                    <p>★★★★★</p>
+                </div>
+            </div>
+        </section>
 </body>
 </html>
