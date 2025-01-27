@@ -61,13 +61,12 @@ body {
     }
 }
 
-/* Conteneur de la barre de recherche */
 .search-bar {
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 500px;
-    margin: 20px auto; /* Centre horizontalement */
+    margin: 20px auto;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 25px;
@@ -79,8 +78,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
     margin-left: 10px;
     background-color: transparent;
 }
