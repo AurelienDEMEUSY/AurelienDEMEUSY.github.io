@@ -1,4 +1,3 @@
-/* Réinitialisation */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Header */
 .header {
     background-color: #fff;
     padding: 1rem 2rem;
@@ -90,7 +88,6 @@ body {
     color: #555;
 }
 
-/* Hébergements et Activités */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -117,3 +114,46 @@ body {
     border-radius: 5px;
 }
 
+.inscription {
+    text-align: center;
+    padding: 2rem;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.inscription .btn-inscription {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.inscription .btn-inscription:hover {
+    background-color: #eaf4fc;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.footer-container h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-container p {
+    color: #555;
+    margin-bottom: 0.5rem;
+}
