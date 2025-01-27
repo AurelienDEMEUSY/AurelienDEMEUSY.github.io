@@ -78,15 +78,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1px;
-    height: 1px;
+    width: 10px;
+    height: 10px;
     margin-left: 10px;
     background-color: transparent;
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 5px;
+    height: 5px;
     object-fit: contain;
 }
 
