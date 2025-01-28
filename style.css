@@ -31,7 +31,6 @@ body {
     margin: 0 1rem;
 }
 
-/* Add a hamburger menu for smaller screens */
 .nav-toggle {
     display: none;
     flex-direction: column;
@@ -52,25 +51,42 @@ body {
 }
 
 .search-bar {
+    position: relative;
+    left: 1%;
     display: flex;
     justify-content: left;
-    gap: 0.5rem;
-    margin-top: 1rem;
+    align-items: center;
     flex-wrap: wrap;
-}
-
-.search-bar input {
-    padding: 0.5rem;
     width: 100%;
     max-width: 300px;
 }
 
+.search-bar input {
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
 .search-bar button {
-    padding: 0.5rem 1rem;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    padding: 0.rem;
     background-color: #0078D7;
     color: white;
     border: none;
+    border-radius: 25%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 2.5rem;
+}
+
+.search-bar button i {
+    font-size: 1rem;
 }
 
 .filters button {
