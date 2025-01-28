@@ -212,7 +212,15 @@ body {
         align-items: center;
     }
 
-    .hebergements,
+    .hebergements {
+        display: block;
+        width: 100%;
+    }
+
+    .hebergements .card {
+        width: 100%;
+    }
+
     .popular {
         flex: 1 1 100%;
     }
