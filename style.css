@@ -180,8 +180,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    background-color: #333;
-    color: white;
+    background-color: lightgray;
+    color: black;
     flex-wrap: wrap;
 }
 
